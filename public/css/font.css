@@ -1,0 +1,9 @@
+@font-face {
+  font-family: Bladerunner;
+  src: url(../fonts/BLADRMF_.TTF);
+}
+
+.bladerunner-font {
+    text-transform: lowercase;
+    font-family: Bladerunner;
+}
