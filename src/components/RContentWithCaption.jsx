@@ -12,7 +12,7 @@ export default function RContentWithCaption(props) {
 
     return (
         <div className="container-fluid">
-            <div className="row vh-100">
+            <div className="row min-vh-100">
                 <div className="col">
                     <VCenter>
                         {props.title != undefined && <h1 style={styles} className="display-1 bladerunner-font">{props.title}</h1>}

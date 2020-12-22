@@ -12,7 +12,7 @@ export default function ContentWithCaption(props) {
 
     return (
         <div className="container-fluid">
-            <div className="row vh-100">
+            <div className="row min-vh-100">
                 <div className="col">
                     {props.children}
                 </div>
