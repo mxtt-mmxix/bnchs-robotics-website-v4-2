@@ -17,8 +17,7 @@ export default function Footer(props) {
                 <div className="py-5">
                     <div className="container">
                         <div className="text-center">
-                            <p>This website is <a href="https://www.redhat.com/en/topics/open-source/what-is-open-source" className="text-reset">open-source</a> software. Source code available on <a href="https://github.com/mxtt-mmxix/mxtt-mmxix.github.io" className="text-reset">GitHub</a>.</p>
-                            <p>Copyright &copy; {new Date().getFullYear()} {'{ Your Name }'}. Licensed under the BSD 2-Clause License.</p>
+                            <p>Copyright &copy; {new Date().getFullYear()} BNCHS Sentinels. All Rights Reserved.</p>
                         </div>
                     </div>
                 </div>
