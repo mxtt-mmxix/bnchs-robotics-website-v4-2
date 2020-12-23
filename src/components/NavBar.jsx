@@ -20,7 +20,7 @@ export default function NavBar(props) {
         <nav style={navStyles} className={`d-none d-md-block navbar navbar-expand-lg fixed-top ${theme.mode === "light" ? "navbar-light" : "navbar-dark"} `}>
             <div className="container">
                 <NavLink style={styles} className="navbar-brand bladerunner-font" to="/">The Sentinels</NavLink>
-                <Toggle styles={theme.style} label="Theme" inlineLabel onText="Dark" offText="Light" onChange={theme.updateTheme} />
+                <Toggle styles={theme.style} label="Theme" inlineLabel onText="Classic" offText="Neon" onChange={theme.updateTheme} />
             </div>
         </nav>
     )
