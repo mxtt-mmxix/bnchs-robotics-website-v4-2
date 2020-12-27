@@ -16,10 +16,10 @@ export default function RContentWithCaption(props) {
                 <div className="col">
                     <VCenter>
                         {props.title != undefined && <h1 style={styles} className="display-1 bladerunner-font">{props.title}</h1>}
-                        <p className="lead">{props.caption}</p>
+                        <p>{props.caption}</p>
                     </VCenter>
                 </div>
-                <div className="col">
+                <div className="col-md">
                     {props.children}
                 </div>
             </div>
