@@ -1,8 +1,8 @@
 import React from 'react'
 import Footer from '../components/Footer'
-import NavBar from '../components/NavBar';
 import { ThemeContext } from '../AppDelegate'
 import { useContext } from 'react';
+import Navigation from '../components/Navigation';
 
 export default function DefaultLayout(props) {
 
@@ -14,12 +14,14 @@ export default function DefaultLayout(props) {
     }
 
     return (
-        <div className="vh-100 d-flex flex-column">
-            <NavBar />
-            <div style={style} className="flex-grow-1">
-                {props.children}
+        <div>
+            <Navigation />
+            <div className="vh-100 d-flex flex-column">
+                <div style={style} className="flex-grow-1">
+                    {props.children}
+                </div>
+                <Footer />
             </div>
-            <Footer />
         </div>
     )
 }
