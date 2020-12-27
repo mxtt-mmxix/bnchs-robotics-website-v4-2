@@ -10,11 +10,13 @@ export default function Home(props) {
 
     const theme = useContext(ThemeContext)
 
+    const imageSrc = theme.mode === "neon blue" ? "img/svg/bulldog.svg" : "img/svg/bulldog_orange.svg"
+
     return (
         <DefaultLayout>
             <ContentWithCaption title="The Sentinels" caption="Competitive Robotics Robotics Team" >
                 <VCenter>
-                    <img src="img/svg/bulldog.svg" width="100%" alt="neon bulldog logo" />
+                    <img src={imageSrc} width="100%" alt="neon bulldog logo" />
                 </VCenter>
             </ContentWithCaption>
             <LAccentBar>
