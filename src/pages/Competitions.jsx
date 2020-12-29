@@ -8,7 +8,7 @@ export default function Competitions(props) {
         <DefaultLayout>
             <div className="container-fluid">
                 <div className="row min-vh-100">
-                    <div className="col" style={{ backgroundImage: 'url(img/jpg/robot_start.jpg)', backgroundSize: 'cover', backgroundPosition: 'center center' }} />
+                    <div className="col d-none d-md-block" style={{ backgroundImage: 'url(img/jpg/robot_start.jpg)', backgroundSize: 'cover', backgroundPosition: 'center center' }} />
                     <div className="col" style={{ backgroundColor: '#ED1C24' }}>
                         <VCenter>
                             <h1 className="display-1" style={{ fontFamily: "Arial" }}><i>FIRST</i> Robotics</h1>

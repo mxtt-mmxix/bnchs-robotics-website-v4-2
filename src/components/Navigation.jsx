@@ -22,11 +22,11 @@ export default function Navigation(props) {
     if (isNavOpen) {
         return (
             <div>
-                <div className="vh-100 vw-100 py-5" style={{ backdropFilter: 'blur(32px) saturate(180%)', backgroundColor: 'rgba(0, 0, 0, 0.7)', position: 'fixed', color: theme.style.palette.black, overflowY: 'scroll' }} >
+                <div className="vh-100 vw-100" style={{ backdropFilter: 'blur(32px) saturate(180%)', backgroundColor: 'rgba(0, 0, 0, 0.7)', position: 'fixed', color: theme.style.palette.black, overflowY: 'scroll' }} >
                     <VCenter>
                         <div className="container">
                             <nav>
-                                <div className="row">
+                                <div className="row py-5">
                                     <div className="col py-3">
                                         <h3 className="display-3">About</h3>
                                         <div className="fs-3">
@@ -56,7 +56,7 @@ export default function Navigation(props) {
                                     </div>
                                 </div>
                             </nav>
-                            <div className="row">
+                            <div className="row pb-5">
                                 <div className="col-auto ms-auto">
                                     <Toggle inlineLabel label="Theme" onText="Neon Orange" offText="Neon Blue" onChange={theme.updateTheme} defaultChecked={theme.mode === "neon orange"} />
                                 </div>
