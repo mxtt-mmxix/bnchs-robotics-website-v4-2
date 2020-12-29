@@ -49,7 +49,8 @@ export default function Footer(props) {
                             </div>
                         </div>
                         <div className="text-center">
-                            <p>Copyright &copy; {new Date().getFullYear()} BNCHS Sentinels. All Rights Reserved.</p>
+                            <p className="pb-5" >Copyright &copy; {new Date().getFullYear()} BNCHS Sentinels. All Rights Reserved.</p>
+                            <p>FIRST&reg;, the FIRST&reg; logo, FIRST&reg; Robotics Competition, and FIRST&reg; Tech Challenge are trademarks of For Inspiration and Recognition of Science and Technology (FIRST). LEGO&reg; is a registered trademark of the LEGO Group. FIRST&reg; LEGO&reg; League is a jointly held trademark of FIRST and the LEGO Group. &copy; 2020 FIRST. All rights reserved. FI084</p>
                         </div>
                     </div>
                 </div>
