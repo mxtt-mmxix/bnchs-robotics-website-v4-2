@@ -9,6 +9,7 @@ import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
 import { getTheme, loadTheme } from "@fluentui/react";
 import Competitions from "./pages/Competitions";
+import Team from "./pages/Team";
 
 export const ThemeContext = React.createContext(
     {
@@ -118,6 +119,9 @@ export default function AppDelegate(props) {
                     </Route>
                     <Route path="/competitions">
                         <Competitions />
+                    </Route>
+                    <Route path="/team">
+                        <Team />
                     </Route>
                     <Route path="*">
                         <NotFound />
